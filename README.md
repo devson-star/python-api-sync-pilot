@@ -45,4 +45,3 @@ The tests use `httpx.MockTransport`, so they make no real network requests. Cove
 ## Handoff notes
 
 For a real client, the adapter would be narrowed to their exact authentication and payload contract, secrets would stay in environment/secret storage, and SQLite could be replaced with PostgreSQL without changing the normalization and sync semantics.
-
